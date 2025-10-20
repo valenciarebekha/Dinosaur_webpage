@@ -1,8 +1,25 @@
 h1 {
     color: #644117;
     font-size: 45px;
+    background-color: #C4A484;
+    text-align: center;
+    border: solid;
 }
 
+.description-index {
+    border: solid;
+    padding: 30px;
+    text-align: center;
+}
+
+.index-title {
+    background-color: #C4A484;
+    text-align: center;
+    padding: 20px 0px 60px 0px;
+    /* top - right - bottom - left this is how you increase size*/
+    font-size: 60px;
+    border: solid;
+}
 
 body {
     font-family: Verdana, sans-serif;
@@ -24,6 +41,7 @@ body {
     height: auto;
     display: block;
     border-radius: 8px;
+    border: solid gray;
 }
 
 
@@ -41,12 +59,55 @@ body {
     font-size: 30px;
 }
 
+/* all pages */
+p {
+    text-align: center;
+}
 
+figure {
+    text-align: center;
+    /* centers figcaption text */
+    max-width: 300px;
+    margin: 0;
+}
+
+figure img {
+    /* centers image */
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+
+.images {
+    display: flex;
+    /* puts images side by side */
+    justify-content: center;
+    /* centers the entire images*/
+    flex-wrap: wrap;
+    /*allows wrap on other images*/
+    gap: 20px;
+    /* space between images*/
+    padding: 20px 0;
+    /* optional top/bottom space*/
+
+}
+
+.button,
+.back {
+    background-color: #C4A484;
+    color: #644117;
+    display: inline-block;
+    border: solid 1px;
+}
 
 /*Museum page*/
 
 h2 {
     color: #644117;
+    text-align: center;
 }
 
 .table-style {
